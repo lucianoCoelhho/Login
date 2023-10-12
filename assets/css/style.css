@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(127, 28, 219); /*cor de fundo*/
+}
+#imagem img:hover{
+    transform: scale(1.2);/*para a maozinha funcionar na imagem*/
+}
+#imagem img{
+    width: 55px; /*tamanho imagens*/
+}
+
+.input-box label{
+    font-size: 24px; /* fonte das palavras */
+    color: black;
+}
+.inputs-cada{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid black;/*grossura da linha*/
+}
+
+.inputs-cada input{
+    border: none; /*para tirar a borda*/
+    width: 260px;/* espaçamento de onde vai ficar escrito*/
+    font-size: 18px; /*tamanho da letra*/
+}
+
+.inputs-cada input:focus{
+    outline: none; /*para tirar a borda quando passa o mause*/   
+}
+#login-botao{
+    
+    padding: 10px; /*tamanho botao*/
+    width: 200px; /*largura botao*/
+    font-size: 18px; /*tamanho da letra*/
+    background-color:rgb(127, 28, 219);
+    border-radius: 7px; /*borda do botao*/
+    margin-left: 50px;
+}
+
+#login-botao:hover{
+    transform: scale(1.07); /*escala de crescimento de botao por passar o mause em cima*/
+    cursor: pointer; /*para deixar maozinha*/
+}
+
+#container{
+    display:flex;
+    align-items: center;    /*para deixar no centro e poder mexer*/
+    justify-content: center;
+    flex-direction:column;  /*para deixar estilo coluna*/
+    background: white; /*cor da tabela*/
+    border-radius: 12px; /*para aredondar as pontas*/
+    padding: 30px 0px; /* para ajustar tudo do centro da tabela branca*/
+    gap: 5px; /* espaçador de imagem para a frase*/
+    width: 449px; /*largura da tabela branca*/
+    height: 429px;/*altura da tabela branca*/
+    margin: auto;
+    margin-top: 130px;
+}
+
+#imagem,h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
